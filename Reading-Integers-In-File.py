@@ -29,7 +29,10 @@ for number in read_content:
 #       we will append that number into the even numbers list
         square_even_nums.append(square_num)
 #   if integer is odd number
+    else:
 #       get the cube of the odd number 
+        odd_num = integer ** 3
 #       we will append that number into the odd numbers list
+        cube_odd_nums.append(odd_num)
 #open a file to store all numbers in even numbers list
 #open a file to store all numbers in even numbers list
