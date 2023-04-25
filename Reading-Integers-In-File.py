@@ -18,7 +18,8 @@ square_even_nums = []
 #Create a list where we store all odd numbers
 cube_odd_nums = []
 #Write a for loop for numbers in number.txt file
-#for number in number.txt file
+for number in read_content:
+
 #   convert numbers into integer
 #   if integer is even number
 #       get the square of the even number 
