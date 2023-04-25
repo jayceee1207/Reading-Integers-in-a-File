@@ -3,10 +3,17 @@
 #Assignment 4: Program 4
 #April 22, 2023
 
+import pyfiglet
+import emoji
+import os
+
 print("*********************************************************")
-print("READING INTEGERS (SQUARE AND CUBE)")
-print("Programmed by: John Carlo Ablay")
-print("*********************************************************")
+print("\u001b[33;1m","READING INTEGERS (SQUARE AND CUBE)")
+print("\u001b[33;1m","Programmed by: John Carlo Ablay")
+print("\u001b[37;1m","*********************************************************")
+
+title = pyfiglet.figlet_format("\nREADING INTEGERS (SQUARE AND CUBE)", font = "digital" )
+print(title)
 
 #PSEUDOCODE
 #Make a file where we will store random numbers
@@ -36,9 +43,15 @@ for number in read_content:
         cube_odd_nums.append(odd_num)
 #open a file to store all numbers in even numbers list
 with open('square_numbers.txt', 'w') as outfile:
+    word_title_even = ("\u001b[32;1m","Squared-Even-Numbers\n")
+    outfile.write('\n'.join(map(str, word_title_even)))
     outfile.write('\n'.join(map(str, square_even_nums)))
+    
 #open a file to store all numbers in even numbers list
 with open('cube_numbers.txt', 'w') as outfile:
+    word_title_odd = ("\u001b[32;1m","Squared-Even-Numbers\n")
+    outfile.write('\n'.join(map(str, word_title_even)))
     outfile.write('\n'.join(map(str, cube_odd_nums)))
 
-print("Thank you for using our program!")
+print("\nThank you for using our program!")
+print(emoji.emojize('Have a good day! :grinning_face:'))
