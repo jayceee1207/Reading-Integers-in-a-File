@@ -35,4 +35,10 @@ for number in read_content:
 #       we will append that number into the odd numbers list
         cube_odd_nums.append(odd_num)
 #open a file to store all numbers in even numbers list
+with open('square_numbers.txt', 'w') as outfile:
+    outfile.write('\n'.join(map(str, square_even_nums)))
 #open a file to store all numbers in even numbers list
+with open('cube_numbers.txt', 'w') as outfile:
+    outfile.write('\n'.join(map(str, cube_odd_nums)))
+
+print("Thank you for using our program!")
