@@ -23,9 +23,11 @@ for number in read_content:
 #   convert numbers into integer
     integer = int(number)
 #   if integer is even number
-    
+    if integer % 2 == 0:
 #       get the square of the even number 
+        square_num = integer ** 2
 #       we will append that number into the even numbers list
+        square_even_nums.append(square_num)
 #   if integer is odd number
 #       get the cube of the odd number 
 #       we will append that number into the odd numbers list
