@@ -21,7 +21,9 @@ cube_odd_nums = []
 for number in read_content:
 
 #   convert numbers into integer
+    integer = int(number)
 #   if integer is even number
+    
 #       get the square of the even number 
 #       we will append that number into the even numbers list
 #   if integer is odd number
