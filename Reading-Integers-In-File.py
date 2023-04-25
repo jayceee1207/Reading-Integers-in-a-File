@@ -3,6 +3,11 @@
 #Assignment 4: Program 4
 #April 22, 2023
 
+print("*********************************************************")
+print("READING INTEGERS (SQUARE AND CUBE)")
+print("Programmed by: John Carlo Ablay")
+print("*********************************************************")
+
 #PSEUDOCODE
 #Make a file where we will store random numbers
 #Read every line of numbers
