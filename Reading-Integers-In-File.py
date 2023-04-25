@@ -14,9 +14,9 @@ file_open = open("numbers.txt", "r")
 #Read every line of numbers
 read_content = file_open.readlines()
 #Create a list where we store all even numbers
-
+square_even_nums = []
 #Create a list where we store all odd numbers
-
+cube_odd_nums = []
 #Write a for loop for numbers in number.txt file
 #for number in number.txt file
 #   convert numbers into integer
