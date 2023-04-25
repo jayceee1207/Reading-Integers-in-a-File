@@ -10,9 +10,13 @@ print("*********************************************************")
 
 #PSEUDOCODE
 #Make a file where we will store random numbers
+file_open = open("numbers.txt", "r")
 #Read every line of numbers
+read_content = file_open.readlines()
 #Create a list where we store all even numbers
+
 #Create a list where we store all odd numbers
+
 #Write a for loop for numbers in number.txt file
 #for number in number.txt file
 #   convert numbers into integer
